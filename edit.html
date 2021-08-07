@@ -1,0 +1,163 @@
+<html>
+<head>
+        <meta charset="utf-8">
+		<meta name="description" content="web design">
+    <link rel="stylesheet" type="text/css" href="swiper.css">
+         
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			direction: rtl;
+		}
+		#one{
+			width:100%;
+			
+		}
+		.top{
+			background: #000;
+			color:#fff;
+			display: flex;
+			flex-direction: row;
+			justify-content:space-around;
+			padding:10px;
+			
+		}
+		.top a{
+			color:#fff;
+			padding:0px 10px;
+			text-decoration: none;
+			border-left:2px solid #fff;
+			font-family: andalus;
+			font-size: 17px;
+		}
+		.center .besmele{
+			font-size: 22px;
+		}
+		.center1{
+			display: flex;
+			justify-content: space-around;
+			padding: 12px;
+		}
+		#search{
+			position: relative;
+		}
+		input{
+			padding:5px;
+		}
+		i.fa.fa-search{
+			position: absolute;
+			left: 5px;
+			top:5px;
+		}
+		.bottom{
+			background-color: darkcyan;
+			color:#fff;
+			display: flex;
+			
+		}
+		.bottom a{
+			color: #fff;
+			text-decoration: none;
+			padding:10px;
+			text-decoration: none;
+			border-left:2px solid #fff;
+			font-family: andalus;
+			font-size: 18px;
+			position: relative;
+		}
+		.dropdown{
+			display: none;
+			position: absolute;
+			width:120px;
+			top:47px;
+			right:0;
+			text-align: center;
+			padding:10px;
+		}
+		.bottom a:hover .dropdown{
+			display:block;
+			background: black;
+			color:#fff;
+			
+		}
+		@media screen and (max-width: 750px){
+		.top a{
+			color:#fff;
+			padding:0px 10px;
+			text-decoration: none;
+			border-left:2px solid #fff;
+			font-family: andalus;
+			font-size: 12px;
+		}
+			.center .besmele{
+			font-size:14px;
+		}
+			.bottom a{
+				font-size: 12px;
+		}
+			.dropdown{
+			display: none;
+			position: absolute;
+			width:120px;
+			top:38px;
+			right:0;
+			text-align: center;
+			padding:10px;
+		}
+    </style>
+    </head>
+    <body>
+		<section id="one">
+        <div class="top">
+         <div class="right">
+			 <a href="" class="giris">دخول الطلاب</a>
+        <a href="" class="giris">دخول الطالبات</a>
+			</div>
+            <div class="center">
+				<a href="" class="besmele">بسم الله الرحمن الرحيم</a>
+			</div>
+        <div class="right">
+			<a href="" class="giris1">Male</a>
+        <a href="" class="giris1">Female Student Login</a>
+			</div>
+        </div>
+        <div class="center1">
+        <form id="search">
+            <input type="search" placeholder="Serach..">
+			<i class="fa fa-search"></i>
+            </form>
+            <h1>ما لا يسع المسلم جهله</h1>
+        </div>
+        <div class="bottom">
+        <a href="" class="bot">
+			عن المشروع
+			<ul class="dropdown">
+				<li>link1</li>
+				<li>link2</li>
+			</ul>
+			</a>
+        <a href="" class="bot">القبول والتسجيل</a>
+        <a href="" class="bot">
+			
+			الخدمات الدراسية
+			<ul class="dropdown">
+				<li>link1</li>
+				<li>link2</li>
+			</ul>
+			</a>
+        <a href="" class="bot">الشؤون الدراسية</a>
+        <a href="" class="bot">التعريف بالمقررات</a>
+        <a href="" class="bot">طريقة الداراسة
+			<ul class="dropdown">
+				<li>link1</li>
+				<li>link2</li>
+			</ul>
+			</a>
+        </div>
+    </section>
+	</body>
+</html>
